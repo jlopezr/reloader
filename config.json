@@ -1,0 +1,5 @@
+{
+    "repo": "jlopezr/ysh",
+    "delay": 60,
+    "command": "echo 'New commit detected!'"
+}

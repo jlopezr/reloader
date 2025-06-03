@@ -1,0 +1,7 @@
+services:
+  http_server:
+    image: python:3.9-slim
+    container_name: simple_http_server
+    command: python -m http.server 8000
+    ports:
+      - "8000:8000"
